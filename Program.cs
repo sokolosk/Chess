@@ -1,5 +1,6 @@
 ﻿using System;
 using Chess_Console.BoardFolder;
+using Chess_Console.ChessFolder;
 
 namespace Chess_Console
 {
@@ -7,16 +8,15 @@ namespace Chess_Console
     {
         static void Main(string[] args)
         {
-            int line, column;
-            line = 2;
-            column = 3;
-
-            Position posicao = new Position(line, column);
             Board board = new Board(8, 8);
 
-            Screen.PrintBoard(board);
+            board.InsertPiece(new Tower(board, Color.black), new Position(0, 0));
+            board.InsertPiece(new Tower(board, Color.black), new Position(1, 3));
+            board.InsertPiece(new King(board, Color.black), new Position(2, 4));
 
-            Console.WriteLine(board);
+            Screen.PrintBoard(board); 
+            //Console.ReadLine();
+
         }
     }
 }

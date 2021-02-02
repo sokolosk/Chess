@@ -1,5 +1,7 @@
 ﻿using System;
+using Chess_Console.ChessFolder;
 namespace Chess_Console.BoardFolder
+
 {
     public class Board
     {
@@ -23,6 +25,10 @@ namespace Chess_Console.BoardFolder
             return Pieces[line, column];
         }
 
-        
+        public void InsertPiece(Piece p, Position pos)
+        {
+            Pieces[pos.Line, pos.Column] = p;
+            p.position = pos;
+        }
     }
 }

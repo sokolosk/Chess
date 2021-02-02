@@ -1,5 +1,6 @@
 ﻿using System;
 using Chess_Console.BoardFolder;
+using Chess_Console.ChessFolder;
 
 namespace Chess_Console
 {

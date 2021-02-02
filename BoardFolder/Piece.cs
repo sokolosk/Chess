@@ -12,12 +12,13 @@ namespace Chess_Console.BoardFolder
         {
         }
 
-        public Piece(Position position, Color color, Board board)
+        public Piece(Board board, Color color)
         {
-            this.position = position;
+            this.position = null;
+            this.board = board;
             this.color = color;
             this.Movements = 0;
-            this.board = board;
+            
         }
     }
 }

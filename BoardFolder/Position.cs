@@ -12,9 +12,9 @@ namespace Chess_Console.BoardFolder
             this.Column = column;
         }
 
-        public override string ToString()
-        {
-            return "(" + Line + ", " + Column + ")";
-        }
+       // public override string ToString()
+        //{
+          //  return "(" + Line + ", " + Column + ")";
+        //}
     }
 }
