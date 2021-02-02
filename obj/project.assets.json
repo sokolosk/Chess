@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/rodrigolima/projects/C# NET projects/Xadrez_Console/Xadrez_Console.csproj",
-      "projectName": "Xadrez_Console",
-      "projectPath": "/Users/rodrigolima/projects/C# NET projects/Xadrez_Console/Xadrez_Console.csproj",
+      "projectUniqueName": "/Users/rodrigolima/projects/C# NET projects/Xadrez_Console/Chess_Console.csproj",
+      "projectName": "Chess_Console",
+      "projectPath": "/Users/rodrigolima/projects/C# NET projects/Xadrez_Console/Chess_Console.csproj",
       "packagesPath": "/Users/rodrigolima/.nuget/packages/",
       "outputPath": "/Users/rodrigolima/projects/C# NET projects/Xadrez_Console/obj/",
       "projectStyle": "PackageReference",

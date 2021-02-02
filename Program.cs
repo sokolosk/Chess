@@ -14,6 +14,8 @@ namespace Chess_Console
             Position posicao = new Position(line, column);
             Board board = new Board(8, 8);
 
+            Screen.PrintBoard(board);
+
             Console.WriteLine(board);
         }
     }

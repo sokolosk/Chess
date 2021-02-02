@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OEwbUDp9zMbYlxbTUMf8uA1LHQsuks0ri+R/Fd8bVC4gSMSzTmfUWyHXff/iQO/KNaKiNEFV7jZTSqgI+hDNXw==",
+  "dgSpecHash": "0QKwOsqCyHzSGn3Q5joB6Or7SIKD/CJdKTOZVWRuKiS0ZjtrhDL600mroAqAzhfiqSrdZifAl8xUpTg/A/Wi8A==",
   "success": true,
-  "projectFilePath": "/Users/rodrigolima/projects/C# NET projects/Xadrez_Console/Xadrez_Console.csproj",
+  "projectFilePath": "/Users/rodrigolima/projects/C# NET projects/Xadrez_Console/Chess_Console.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -18,9 +18,11 @@ namespace Chess_Console.BoardFolder
             Pieces = new Piece[lines, columns];
         }
 
-        public override string ToString()
+        public Piece piece(int line, int column)
         {
-            return "size (" + Lines + ", " + Columns + ")" ;
+            return Pieces[line, column];
         }
+
+        
     }
 }

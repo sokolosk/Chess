@@ -1,27 +1,27 @@
 ﻿<Properties StartupConfiguration="{CEFA0E0D-D909-498F-9D2C-9736B0D82AE4}|Default">
-  <MonoDevelop.Ide.ItemProperties.Xadrez__Console PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Board/Board.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Screen.cs">
     <Files>
-      <File FileName="Program.cs" Line="14" Column="44" />
-      <File FileName="Tabuleiro/Posicao.cs" Line="2" Column="24" />
-      <File FileName="Board/Color.cs" Line="2" Column="24" />
-      <File FileName="Board/Piece.cs" Line="9" Column="41" />
-      <File FileName="Board/Board.cs" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="17" Column="36" />
+      <File FileName="Tabuleiro/Posicao.cs" Line="2" Column="36" />
+      <File FileName="Board/Color.cs" Line="2" Column="36" />
+      <File FileName="Board/Piece.cs" Line="2" Column="36" />
+      <File FileName="Board/Board.cs" Line="23" Column="25" />
+      <File FileName="Screen.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Xadrez_Console" expanded="True">
             <Node name="Xadrez_Console" expanded="True">
-              <Node name="Board" expanded="True">
-                <Node name="Board.cs" selected="True" />
-              </Node>
+              <Node name="BoardFolder" expanded="True" />
+              <Node name="Screen.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Chess__Console PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
