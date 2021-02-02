@@ -1,12 +1,19 @@
 ﻿using System;
+using Chess_Console.Board;
 
-namespace Xadrez_Console
+namespace Chess_Console
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int line, column;
+            line = 2;
+            column = 3;
+
+            Position posicao = new Position(line, column);
+
+            Console.WriteLine(posicao);
         }
     }
 }
