@@ -1,5 +1,5 @@
 ﻿using System;
-using Chess_Console.Board;
+using Chess_Console.BoardFolder;
 
 namespace Chess_Console
 {
@@ -12,8 +12,9 @@ namespace Chess_Console
             column = 3;
 
             Position posicao = new Position(line, column);
+            Board board = new Board(8, 8);
 
-            Console.WriteLine(posicao);
+            Console.WriteLine(board);
         }
     }
 }

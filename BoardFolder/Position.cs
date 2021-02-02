@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Chess_Console.Board
+namespace Chess_Console.BoardFolder
 {
     public class Position
     {
