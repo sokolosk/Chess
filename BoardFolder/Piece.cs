@@ -17,5 +17,10 @@ namespace Chess_Console.BoardFolder
             this.Movements = 0;
             
         }
+
+        public void IncrementMovement()
+        {
+            Movements++;
+        }
     }
 }
