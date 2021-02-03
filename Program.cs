@@ -23,6 +23,10 @@ namespace Chess_Console
             {
                 Console.WriteLine(e.Message);
             }
+
+            ChessPosition pos = new ChessPosition('c', 7);
+            Console.WriteLine(pos);
+            Console.WriteLine(pos.ToPosition());
             Console.ReadLine();
 
         }
