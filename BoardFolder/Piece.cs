@@ -5,13 +5,10 @@ namespace Chess_Console.BoardFolder
     {
         public Position position { get; set; }
         public Color color { get; protected set; }
-        public int Movements { get; set; }
-        public Board board { get; set; }
+        public int Movements { get; protected set; }
+        public Board board { get; protected set; }
 
-        public Piece()
-        {
-        }
-
+        
         public Piece(Board board, Color color)
         {
             this.position = null;
